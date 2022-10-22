@@ -3,7 +3,10 @@ For free Images:
 
 For design:
           bootstrap.com theme
-
-For fonts:
-         fontsawesome.com, google fonts 
+ 
 For icons:
+         fontawesome cdn (cdnjs.com) -- copy the library link from there. For icons link go to fontawesome.com
+
+shift + arrow:  to highlight something
+
+we created hotel website using html and css. The website have three pages Home(index), about and contact.
