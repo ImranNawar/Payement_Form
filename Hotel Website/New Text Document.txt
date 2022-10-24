@@ -10,3 +10,9 @@ For icons:
 shift + arrow:  to highlight something
 
 we created hotel website using html and css. The website have three pages Home(index), about and contact.
+
+
+
+Responsiveness:
+mobile.css file is included for Responsiveness.
+we will stack, somethings which are in flow on large screen.
