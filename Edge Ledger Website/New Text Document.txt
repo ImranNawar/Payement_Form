@@ -4,5 +4,14 @@ It is a single page website. Business website
 For icons, fonts:
          fontawesome cdn (cdnjs.com) -- copy the library link from there which is :(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css) For icons/fonts link go to fontawesome.com
 
+-> google console: create an API key
+->google map docs: add to html and enter your api key
+ <script async
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+</script>
 
+---- don't showing map----
+
+
+for javascrift we use src and for css we use href
 JQuerry will be used for smooth scrolling.

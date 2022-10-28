@@ -6,17 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>EdgeLedger Financial | Accounting & Investment</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
     <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="home">
     <!-- Navbar -->
     <nav id="navbar">
         <h1 class="logo">
             <span class="text-primary">
-                <i class="fas fa-book-open"></i> Edge
-            </span>Ledger
+                <i class="fas fa-book-open"></i> Edge</span>Ledger
         </h1>
         <ul>
             <li><a href="#home">Home</a></li>
@@ -104,5 +103,58 @@
             </div>
         </div>
     </section>
+
+    <!-- Section: Contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Please use the form below to contact us</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                </div>
+                <input type="submit" value="send" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+        <div class="container">
+            <p>Copyright &copy; 2022, EdgeLedger, All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- JQuerry CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+     integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"></script>
+
+
+
+    <!-- Local JS file -->
+    <script src="js/main.js"></script>  <!--for javascrift we use src and for css we use href-->
+    
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?
+    key=AIzaSDoZg2Es_GrQHZf_52j2_xZ3cTfBCR0HII&callback=initMap"
+    async defer></script>
+    
 </body>
 </html>
+<!--key::  AIzaSDoZg2Es_GrQHZf_52j2_xZ3cTfBCR0HII -->
+<!-- AIzaSyCrVO_5q6K5hx9vB7JrOL8Fz1CuKtsZ2i0 -->
