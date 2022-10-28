@@ -18,22 +18,49 @@ p {
 }
 
 /* Utility classes */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+.text-center {
+    text-align: center;
+}
 .text-primary {
     color: #93cb52;
+}
+
+.bg-dark {
+    background: #444;
+    color: #fff
 }
 
 .l-heading {
     font-size: 4rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
-    padding-left: 130px;
+}
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
 }
 
 .lead {
     font-size: 1.3rem;
     margin-bottom: 2rem ;
-    padding-left: 130px;
 }
+
+.py-1 {padding: 1.5rem 0;}
+.py-2 {padding: 2rem 0;}
+.py-3 {padding: 3rem 0;}
+
+.p-1 {padding: 1.5rem ;}
+.p-2 {padding: 2rem ;}
+.p-3 {padding: 3rem ;}
+
 .btn {
     display: inline-block;
     color: #fff;
@@ -51,6 +78,15 @@ p {
     color: #fff;
 }
 
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
 /* Navbar */
 #navbar {
     display: flex;
@@ -95,5 +131,48 @@ p {
     position: absolute;
     top: 60px;
     left: 0;
+    right: 0;
+    bottom: 0;
     background-color: rgba(0,0,0,0.4);/*0.4 is opacity*/
+}
+
+/* Section: What we Do */
+#what .items {  /*put id for better targeting*/
+    display: flex;
+    padding: 1rem;
+}
+
+#what .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item i {
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: rem;
+}
+
+/* Section: Who We Are */
+#who {
+    display: flex;
+}
+#who div {
+    flex: 1;
+}
+#who .who-img {
+    background: url(../img/people\ \(2\).jpg) no-repeat
+    center center/cover;
+}
+
+/* Clients */
+#clients .items {
+    display: flex;
+}
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
 }
