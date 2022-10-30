@@ -14,4 +14,12 @@ For icons, fonts:
 
 
 for javascrift we use src and for css we use href
-JQuerry will be used for smooth scrolling.
+JQuerry will be used for smooth scrolling. jQuery is a fast, small, and feature-rich JavaScript library.
+-> jquerry cdn >> latest version >> minifid >> copy the script tag 
+
+
+Hosting: inmotionhosting.com
+Domain: namecheap.com
+FileZilla: to access our files --download (filezilla-client) 
+
+FTP account
