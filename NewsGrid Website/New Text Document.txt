@@ -1,0 +1,8 @@
+for creating favicon:
+            http://tools.dynamicdrive.com/favicon/
+then download and past to root folder of project and also copy the link to index.html 
+
+for fonts: 
+            google.fonts
+search for a font and then click + and then paste the link to index.html
+
