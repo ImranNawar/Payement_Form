@@ -1,4 +1,10 @@
+Application where we can create tasks, we can delete them, we can clear them, we can filter them
+& its get persisted to local storage.
+
+
 1. materializecss > get started > copy the css link and javascript link (cdn)
 2. jquerry cdn > latest version > uncompressed > copy the script link and paste just about
    materializecss script tag
 3. bootstrapcdn/fontawesome > copy the html link and paste right below materialize
+
+-->Local Storange: F12 > Application > Local Storage 
