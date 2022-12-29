@@ -1,0 +1,4 @@
+1. materializecss > get started > copy the css link and javascript link (cdn)
+2. jquerry cdn > latest version > uncompressed > copy the script link and paste just about
+   materializecss script tag
+3. bootstrapcdn/fontawesome > copy the html link and paste right below materialize
