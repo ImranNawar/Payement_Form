@@ -1,0 +1,3 @@
+--> getbootstrap.com (4.6) > copy the code from starter template
+
+<span class="input-group-addon">Monthly Payment</span>
