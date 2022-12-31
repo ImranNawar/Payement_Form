@@ -1,0 +1,3 @@
+Number Guesser game:
+use skeleton css for UI
+skeleton cdn > cdnjs.com > copy the link tag  .css
