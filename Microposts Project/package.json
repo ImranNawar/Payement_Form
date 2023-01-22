@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --output-public-path=/build/"
+    "start": "webpack-dev-server --output-public-path=/build/",
+    "json:server": "json-server --watch api/db.json"
   },
-  "author": "Brad Traversy",
-  "license": "MIT",
+  "author": "Imran Nawar",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -18,5 +18,8 @@
     "babel-preset-stage-0": "^6.24.1",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.11.5"
+  },
+  "dependencies": {
+    "json-server": "^0.17.1"
   }
 }
