@@ -32,7 +32,7 @@ Each project has its own directory.
 To get started with any of the projects, simply navigate to the project directory.
 
 ## License
-This repository is licensed under the MIT License. Please see the LICENSE file for more information.
+This repository is licensed under the **MIT License**. Feel free to contribute. Please see the LICENSE file for more information. 
 
 ## Acknowledgments
 I would like to thank all the online resources, tutorials, and instructors who helped me learn and develop these projects. Their contributions were invaluable to my learning process.
