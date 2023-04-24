@@ -14,6 +14,7 @@ The following is a list of the different projects in this repository:
 - [Hotel Website](https://github.com/ImranNawar/web_small_projects/tree/main/Hotel%20Website)
 - [Knowledge Resume](https://github.com/ImranNawar/web_small_projects/tree/main/Knowledge%20Resume)
 - [Loan Calculator](https://github.com/ImranNawar/web_small_projects/tree/main/Loan_Calculator)
+- [LoginForm](https://github.com/ImranNawar/web_small_projects/tree/main/LoginForm)
 - [Microposts Project](https://github.com/ImranNawar/web_small_projects/tree/main/Microposts%20Project)
 - [NewsGrid Website](https://github.com/ImranNawar/web_small_projects/tree/main/NewsGrid%20Website)
 - [Number Guesser](https://github.com/ImranNawar/web_small_projects/tree/main/Number_Guesser)
