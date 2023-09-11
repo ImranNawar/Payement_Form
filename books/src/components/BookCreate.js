@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import React from 'react';
+import useBooksContext from '../hooks/use-books-context';
 
 const BookCreate = ({ onCreate }) => {
   const [title, setTitle] = useState('');
+  const { createBook } = useBooksContext();
 
   const handleChange = (event) => {
     setTitle(event.target.value)
@@ -10,7 +12,7 @@ const BookCreate = ({ onCreate }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    onCreate(title);
+    createBook(title);
     setTitle('');  // To empty the input field after onCreate
   }
 
