@@ -1,42 +1,30 @@
 import React from 'react';
-import { BsFillBellFill, BsFillCursorFill, BsFillDatabaseFill } from "react-icons/bs";
-import Button from './components/Button';
+import Accordion from './components/Accordion';
 
 const App = () => {
-  const handleClick = () => {
-    console.log("clicked")
-  }
+  const items = [
+    {
+      id: 'eer87',
+      label: 'Can I use React on a Projects?',
+      content: 'You can use React on any Project you want.You can use React on any Project you want.'
+    },
+    {
+      id: '9d8fd',
+      label: 'Can I use JavaScript on a Projects?',
+      content: 'You can use JavaScript on any Project you want.You can use JavaScript on any Project you want.'
+    },
+    {
+      id: 'df78f',
+      label: 'Can I use CSS on a Projects?',
+      content: 'You can use CSS on any Project you want.You can use CSS on any Project you want.'
+    }
+  ];
+
   return (
     <div>
-      <div>
-        <Button secondary outline rounded className="mb-5" onClick={handleClick}>
-          <BsFillBellFill />
-          Click me!!
-        </Button>
-      </div>
-      <div>
-        <Button danger outline>
-        <BsFillCursorFill />
-          Buy Now
-        </Button>
-      </div>
-      <div>
-        <Button warning rounded>
-         <BsFillDatabaseFill />
-          See Deal
-        </Button>
-      </div>
-      <div>
-        <Button secondary outline>
-          
-          Hide ads
-        </Button>
-      </div>
-      <div>
-        <Button primary rounded>Something</Button>
-      </div>
+      <Accordion items={items} />
     </div>
-  );
+  )
 }
 
 export default App;
