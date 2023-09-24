@@ -3,9 +3,8 @@ import { BsFillBellFill, BsFillCursorFill, BsFillDatabaseFill } from "react-icon
 import Button from '../components/Button';
 
 const ButtonPage = () => {
-  const handleClick = () => {
-    console.log("clicked")
-  }
+  const handleClick = () => {}
+
   return (
     <div>
       <div>
