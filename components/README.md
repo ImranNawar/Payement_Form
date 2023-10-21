@@ -12,6 +12,7 @@
 - dropdown
 - modal
 - Table
+- Counter
 
 ### Concepts
 - custom navigation
