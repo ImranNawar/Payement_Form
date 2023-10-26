@@ -26,6 +26,10 @@ The following is a list of the different projects in this repository:
 - [TaskList](https://github.com/ImranNawar/web_small_projects/tree/main/TaskList)
 - [Tracalorie](https://github.com/ImranNawar/web_small_projects/tree/main/Tracalorie)
 - [User form](https://github.com/ImranNawar/web_small_projects/tree/main/User%20form)
+- [Animals](https://github.com/ImranNawar/web_small_projects/tree/main/animals)
+- [Books](https://github.com/ImranNawar/web_small_projects/tree/main/books)
+- [PDA Cards](https://github.com/ImranNawar/web_small_projects/tree/main/pda_cards)
+- [Pics](https://github.com/ImranNawar/web_small_projects/tree/main/pics)
 
 Each project has its own directory.
 
